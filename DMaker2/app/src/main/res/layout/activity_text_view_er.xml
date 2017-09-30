@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#443D9140"
+    tools:context="com.make.maker.textviewer.TextViewErActivity"
+    android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/mianban"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="9">
+
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/addText"
+            android:layout_width="match_parent"
+            android:text="添加按钮"
+            android:layout_alignParentBottom="true"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            />
+</LinearLayout>
